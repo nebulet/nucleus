@@ -1,0 +1,12 @@
+[package]
+name = "nucleus"
+version = "0.1.0"
+authors = ["Lachlan Sneff <lachlan.sneff@gmail.com>"]
+
+[dependencies]
+cranelift-codegen = { version = "0.22.0" }
+cranelift-native = { version = "0.22.0" }
+cranelift-wasm = { version = "0.22.0" }
+cranelift-entity = { version = "0.22.0" }
+wasmparser = { version = "0.20.0" }
+target-lexicon = { version = "0.0.3" }
