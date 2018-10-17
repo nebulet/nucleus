@@ -3,6 +3,8 @@ extern crate cranelift_codegen;
 extern crate cranelift_wasm;
 extern crate cranelift_entity;
 extern crate target_lexicon;
+#[macro_use]
+extern crate bitflags;
 
 pub mod backend;
 mod wasm_compile;

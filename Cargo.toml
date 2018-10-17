@@ -10,3 +10,4 @@ cranelift-wasm = { version = "0.22.0" }
 cranelift-entity = { version = "0.22.0" }
 wasmparser = { version = "0.20.0" }
 target-lexicon = { version = "0.0.3" }
+bitflags = "1.0"

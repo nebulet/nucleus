@@ -287,4 +287,8 @@ impl<'mod_env> cranelift_wasm::FuncEnvironment for FuncEnvironment<'mod_env> {
             index_type: I32,
         })
     }
+
+    fn make_table(&mut self, func: &mut ir::Function, index: TableIndex) -> ir::Table {
+        
+    }
 }
